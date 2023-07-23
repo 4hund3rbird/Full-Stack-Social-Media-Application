@@ -1,10 +1,4 @@
-import './App.css'
-
-function App(){
-  return(<div className='container'>
-  <header className='titlelogo'>
-  <div className="logo">
-  <svg width="85" height="86" viewBox="0 0 85 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="85" height="86" viewBox="0 0 85 86" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect y="33" width="28" height="53" fill="#C6B8FF"/>
 <circle cx="14" cy="32" r="14" fill="#FFDDBD"/>
 <rect y="24" width="28" height="12" rx="6" fill="#FF008A" fill-opacity="0.34"/>
@@ -50,12 +44,3 @@ function App(){
 <rect x="44" y="4" width="4" height="1" fill="#D9D9D9"/>
 <rect x="44" y="6" width="2.66667" height="1" fill="#D9D9D9"/>
 </svg>
-</div>
-<div className="title">
-  <h1>Together.io</h1>
-</div>
-  </header>
-  </div>)
-}
-
-export default App;

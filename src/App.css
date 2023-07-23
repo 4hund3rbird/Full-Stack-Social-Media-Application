@@ -1,0 +1,55 @@
+*{
+  background-color: rgb(255, 255, 255);
+  font-family: 'Roboto';
+  margin: 0px;
+  padding: 0px;
+  /* border: 0.1px solid black; */
+}
+
+
+
+.title{
+  display: flex;
+  flex-direction: column-reverse;
+  /* justify-content: first ; */
+  font-size: 30px;
+  font-weight: 900;
+  color: cadetblue;
+}
+
+.container{
+  background-color: rgb(168, 255, 226);
+  height: 100vh;
+  padding: 40px 40px;
+}
+
+
+.titlelogo{
+  width: 400px;
+  padding: 10px 30px;
+  /* border: 0.1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 20px 20px;
+  border-radius: 25px;
+  animation-name: droping;
+  animation-duration: 1.5s;
+  /* animation-delay: 1s; */
+  animation-timing-function:ease-in-out;
+  /* transform: translateY(-200px); */
+  /* transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+
+@keyframes droping {
+  0%{
+    transform: translateY(-200px);
+    box-shadow: 20px -100px;
+  }
+  50%{
+    transform: translateY(100px);
+    box-shadow: 20px 0px;
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
